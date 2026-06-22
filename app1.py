@@ -12,7 +12,7 @@ model = joblib.load("phishing_detector.pkl")
 pca = joblib.load("pca.pkl")
 scaler = joblib.load("scaler.pkl")
 
-st.title("🔐 Phishing Detection System with Behavioral Analysis")
+st.title(" Phishing Detection System with Behavioral Analysis")
 
 # ==========================
 # FEATURE ENGINEERING
